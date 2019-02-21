@@ -1,0 +1,8 @@
+- Limitar numero de caracteres maximos para el mensaje
+- Cuando se copia texto, se imprima los saltos de linea que tenga
+- Cambiar formato de los mensajes
+- Animar aparicion de una conversacion
+- Crear conversaciones, en vez de usar la misma
+- Cambiar todos los id por class
+- Utilizar los id de los elementos con el identificador de usuario/Grupo
+- No se deberia poder mantener el Enter

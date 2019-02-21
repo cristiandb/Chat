@@ -1,0 +1,254 @@
+* {
+	margin:0; 
+	padding: 0; 
+	border:0;
+}
+
+.herramientas {
+    bottom: 5px;
+    color: #FFFFFF;
+    left: 0;
+    position: fixed;
+    width: 100%;
+}
+
+#toolife_btnchat {
+    float: right;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    position: relative;
+    text-align: center;
+    width: 180px;
+    font-family: Georgia;
+    font-size: 12px;
+	border: 1px solid #0F3F5F;
+	background-color: #33556F;
+	margin-right: 25px;
+}
+
+.toolife_btnchat, #toolife_btnBusqueda{
+    float: right;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    position: relative;
+    text-align: center;
+    width: 180px;
+    font-family: Georgia;
+    font-size: 12px;
+	border: 1px solid #0F3F5F;
+	background-color: #33556F;
+	margin-right: 25px;
+}
+
+#toolife_btnchat:hover {
+    background-color: #0F3F5F;
+    cursor: pointer;
+}
+
+.toolife_btnchat:hover, #toolife_btnBusqueda:hover {
+    background-color: #0F3F5F;
+    cursor: pointer;
+}
+
+.toolife_bar_chat{
+    padding-bottom: 5px;
+    padding-top: 5px;
+    text-align: center;
+    width: 269px;
+    font-family: Georgia;
+    font-size: 12px;
+	border: 1px solid #0F3F5F;
+	background-color: #33556F;
+	cursor: pointer;
+}
+
+.toolife_chat {
+    border: 1px solid #888888;
+    bottom: 30px;
+    display: none;
+    height: 276px;
+    position: fixed;
+    right: 11px;
+    margin-right: 176px;
+    width: 270px;
+    background-color: white;
+}
+
+div#chat {
+    height: 223px;
+    overflow: auto;
+    width: 270px;
+    word-wrap: break-word;
+}
+
+div.chat {
+    height: 223px;
+    overflow: auto;
+    width: 270px;
+    word-wrap: break-word;
+}
+
+div.mensaje {
+    padding: 5px 5px 5px 5px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+    font-family: times new roman;
+}
+
+font {
+    margin-right: 5px;
+}
+
+.toolife_input {
+	border: 1px solid #888888;
+	height: 26px;
+	width: 100%;
+    border-left: none;
+    border-right: none;
+	border-bottom: none;
+    bottom: 0px;
+}
+
+#toolife_chat_textarea {
+    border: none;
+    height: 16px;
+    resize: none;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 5px;
+}
+
+.toolife_chat_textarea {
+    border: none;
+    height: 16px;
+    resize: none;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 5px;
+}
+
+#toolife_text_busqueda {
+    border: medium none;
+    font-size: 12px;
+    height: 18px;
+    resize: none;
+    width: 140px;
+    top: 0px;
+    float: right;
+}
+
+#toolife_btnBusqueda {
+	float: right;
+    text-align: left;
+    width: 150px;
+    margin-right: 10px;
+    padding-left: 5px;
+}
+
+#toolife_busqueda {
+	float: right;
+	border: 1px solid #888888;
+    bottom: 0px;
+    height: 500px;
+    position: absolute;
+    right: 0px;
+    width: 170px;
+    display:none;
+    background-color: #F0F0F0;
+}
+
+.toolife_input_busqueda {
+	background-color: #FFFFFF;
+	border-top: 1px solid #CCCCCC;
+	height: 20px;
+}
+
+.toolife_barra_ajustes {
+	border-bottom: 1px solid #CCCCCC;
+	height: 20px;
+	background-color: #33556F;
+	font-family: times new roman;
+	cursor: pointer;
+	font-size: 15px;
+}
+
+#toolife_grupos {
+	height: 458px;
+	overflow: hidden;
+}
+
+#div_ajustes {
+	position: relative;
+	float: right;
+	background-color: transparent;
+	height: 20px;
+	width: 24px;
+	padding-left: 6px;
+}
+
+.btn_ajustes {
+	border: medium none;
+	box-shadow: none;
+	background-color: transparent;
+}
+
+#toolife_bar_busqueda {
+	height: 20px;
+	width: 134px;
+    float: left;
+    padding-left: 6px;
+}
+
+#toolife_bar_busqueda:hover , #div_ajustes:hover{
+	background-color: #0F3F5F;
+}
+
+.div_error{
+	color: #666666;
+	background-color: transparent;
+    font-size: 13px;
+    padding: 5px;
+    position: relative;
+    word-wrap: break-word;
+    display: none;
+}
+
+.toolife_bar_navegacion {
+    height: 28px;
+    position: relative;
+    width: 100%;
+	bottom:0px;
+	background-color: blue;
+}
+
+.content_groups {
+	height:425px;
+	overflow: hidden;
+	margin-top:5px;
+	width:100%;
+}
+
+.content_groups li {
+	color: #333333;
+	height: 35px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	position: relative;
+	margin-top: 2px;
+	list-style-type: none;
+}
+
+.content_groups li:hover {
+	background-color: #B0B0B0;
+	cursor: pointer;
+}
+
+.content_groups li span {
+    float: left;
+    left: 5px;
+    position: relative;
+	font-family: times new roman;
+	font-size: 13px;
+	width: 120px;
+	height: 35px;
+	overflow: hidden;
+}
